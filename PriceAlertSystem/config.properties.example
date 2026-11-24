@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------
+#  Copy this file to  config.properties  and fill in what you want.
+#  Everything is OPTIONAL: Binance, Yahoo Finance and the simulator work with no keys at all.
+#  (You can also use environment variables instead: FINNHUB_API_KEY, COINGECKO_API_KEY,
+#   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID. A set environment variable wins over this file.)
+# ---------------------------------------------------------------
+
+# How often the background monitor checks prices, in seconds.
+# 10 is safe for the free plans. Going below 5 may trigger rate limits.
+poll.seconds=10
+
+# --- Finnhub (US stocks like AAPL, MSFT, TSLA) -------------------
+# Free key: https://finnhub.io/register  -> copy "API key" from the dashboard
+finnhub.key=YOUR_FINNHUB_KEY
+
+# --- CoinGecko (coin ids like bitcoin, ethereum, solana) ---------
+# Works without a key (low rate limit). A free "Demo" key from https://www.coingecko.com/en/api
+# raises the limit. Currency can be usd, inr, eur ...
+coingecko.key=YOUR_COINGECKO_DEMO_KEY
+coingecko.currency=usd
+
+# --- Telegram phone notifications (optional) --------------------
+# 1) In Telegram, chat with @BotFather -> /newbot -> copy the token
+# 2) Send any message to your new bot
+# 3) Open https://api.telegram.org/bot<TOKEN>/getUpdates and copy "chat":{"id": ...}
+telegram.token=YOUR_TELEGRAM_BOT_TOKEN
+telegram.chat=YOUR_CHAT_ID

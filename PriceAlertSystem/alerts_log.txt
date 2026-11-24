@@ -1,0 +1,3 @@
+2026-11-24 09:56:49 | alert #1 | binance:BTCUSDT | price 60,497.10 | price fell to 60,498.00 or below
+2026-11-24 09:57:42 | alert #1 | binance:BTCUSDT | price 60,493.36 | price fell to 60,498.00 or below
+2026-11-24 10:11:45 | alert #2 | binance:BTCUSDT | price 60,529.96 | price moved +0.005% from the starting price 60,526.94
